@@ -7,7 +7,11 @@ public class Waiter {
     }
 
     public Pizza getPizza() {
+        builder.BuildDough();
+        builder.BuildSauce();
+        builder.BuildTopping();
         return builder.getPizza();
+
     }
 
 }
