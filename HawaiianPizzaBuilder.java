@@ -1,14 +1,14 @@
 public class HawaiianPizzaBuilder extends PizzaBuilder {
 
-    void BuildDough() {
+   public void BuildDough() {
         pizza.setDough("Deep Dish");
     }
 
-    void BuildSauce() {
+    public void BuildSauce() {
         pizza.setSauce("Tomato");
     }
 
-    void BuildTopping() {
-        pizza.setTopping("Pineapple");
+    public void BuildTopping() {
+        pizza.setTopping("Pineapple and Ham");
     }
 }

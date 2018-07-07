@@ -1,14 +1,14 @@
 public class PepperoniPizzaBuilder extends PizzaBuilder {
 
-    void BuildDough() {
+    public void BuildDough() {
         pizza.setDough("Thin Large");
     }
 
-    void BuildSauce() {
+    public void BuildSauce() {
         pizza.setSauce("Spicy Tomato");
     }
 
-    void BuildTopping() {
-        pizza.setTopping("Pepperoni");
+    public void BuildTopping() {
+        pizza.setTopping("Pepperoni sausage");
     }
 }

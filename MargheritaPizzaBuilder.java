@@ -1,14 +1,14 @@
 public class MargheritaPizzaBuilder extends PizzaBuilder{
 
-    void BuildDough() {
+    public void BuildDough() {
         pizza.setDough("Thin");
     }
 
-    void BuildSauce() {
+    public void BuildSauce() {
         pizza.setSauce("Tomato");
     }
 
-    void BuildTopping() {
+    public void BuildTopping() {
         pizza.setTopping("Cheese");
     }
 }
